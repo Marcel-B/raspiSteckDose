@@ -3,9 +3,9 @@
 #include <stdio.h>
  
 int main(int argc, char *argv[]) {
-    int PIN = 2; // siehe wiring Pi Belegung
-    int codeSocketDon = 1315921;
-    int codeSocketDoff =1315924;
+    int PIN = 0; // siehe wiring Pi Belegung
+    int codeSocketDon = 1312081;
+    int codeSocketDoff = 1312084;
  
     if (wiringPiSetup() == -1) 
 	return 1;
