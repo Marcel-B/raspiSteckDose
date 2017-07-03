@@ -4,8 +4,8 @@
  
 int main(int argc, char *argv[]) {
     int PIN = 2; // siehe wiring Pi Belegung
-    int codeSocketDon = 1315921;
-    int codeSocketDoff =1315924;
+    int codeSocketDon = 1315153;
+    int codeSocketDoff = 1315156;
  
     if (wiringPiSetup() == -1) 
 	return 1;
